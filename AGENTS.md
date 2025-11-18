@@ -55,7 +55,7 @@ Notes:
 - ENS: Updates only on push to `main` to prevent PR traffic from mutating production DNS. `scripts/update-ens.mjs` uses ethers + content-hash to encode the EIP‑1577 `contenthash`.
 - Action version: Using `filecoin-project/filecoin-pin/upload-action@v0.13.0` (latest stable release) for stability. The `@master` branch had PieceCID calculation issues ("Invalid PieceCID: undefined"), so using the stable release tag instead.
 - 2025-11-18: Initially pinned to commit `2a8d3eb5454724b1ff24c74a284ab48b3173f237` (v0.9.1) due to PieceCID issues, but the pinned version had older provider selection logic. Tried `@master` but encountered "Invalid PieceCID: undefined" errors. Switched to `@v0.13.0` tag for stable release version.
-- 2025-11-18: Added `site/assets/padding.txt` as deterministic filler content to ensure the CAR file is large enough for storage providers that struggle with tiny payloads. This mirrors the larger bundle size in `filecoin-pin-website` and prevents `Invalid PieceCID: undefined` responses from providers.
+- 2025-11-18: Added deterministic filler assets (`site/assets/padding.txt` and `site/assets/payload-1mb.txt`) so the uploaded CAR is large enough for storage providers. This mirrors the bigger Vite output in `filecoin-pin-website` and prevents `Invalid PieceCID: undefined` errors from providers that reject tiny pieces.
 - Future work: Add preview links, gateway checks, environment‑gated approvals, and optional CDN once provider support and cost reporting are tightened.
 
 ## How to Contribute as an Agent
