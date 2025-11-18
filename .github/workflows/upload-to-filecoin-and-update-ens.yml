@@ -83,6 +83,13 @@ jobs:
                   mkdir -p dist
                   cp -R site/* dist/
 
+            - name: Set known good provider
+              run: |
+                  # Use provider ID 2 (ezpdpz-calib2) as a known-good provider
+                  # This avoids issues with problematic providers like provider 30
+                  echo "PROVIDER_ID=2" >> $GITHUB_ENV
+                  echo "Using known-good provider ID: 2 (ezpdpz-calib2)"
+
             - name: Upload to Filecoin
               id: filecoin
               uses: filecoin-project/filecoin-pin/upload-action@2a8d3eb5454724b1ff24c74a284ab48b3173f237
