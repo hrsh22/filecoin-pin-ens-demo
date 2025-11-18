@@ -148,4 +148,5 @@ Finding a run ID (optional)
 Notes
 
 - Manual runs without `build_run_id` will copy `site/` to `dist/` inline. The secure pattern still uses the two‑workflow chain via `workflow_run` when not running manually.
-- To test the default chain in a fork, open a PR from a branch in the same fork targeting its `main`. If it still doesn’t auto-run, use the manual triggers above.
+- To test the default chain in a fork, open a PR from a branch in the same fork targeting its `main`. If
+  it still doesn’t auto-run, use the manual triggers above.
