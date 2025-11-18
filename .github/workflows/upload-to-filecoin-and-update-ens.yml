@@ -24,7 +24,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' || (github.event.workflow_run && github.event.workflow_run.conclusion == 'success') }}
         runs-on: ubuntu-latest
         permissions:
-            actions: read
+            actions: write
             checks: write
             pull-requests: write
         steps:
@@ -83,6 +83,25 @@ jobs:
                   mkdir -p dist
                   cp -R site/* dist/
 
+            - name: Determine dry-run mode
+              id: dry-run
+              run: |
+                  if [ "${{ github.event_name }}" == "workflow_run" ]; then
+                    if [ "${{ github.event.workflow_run.event }}" != "push" ]; then
+                      echo "value=true" >> $GITHUB_OUTPUT
+                    else
+                      echo "value=false" >> $GITHUB_OUTPUT
+                    fi
+                  elif [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                    if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+                      echo "value=true" >> $GITHUB_OUTPUT
+                    else
+                      echo "value=false" >> $GITHUB_OUTPUT
+                    fi
+                  else
+                    echo "value=false" >> $GITHUB_OUTPUT
+                  fi
+
             - name: Upload to Filecoin
               id: filecoin
               uses: filecoin-project/filecoin-pin/upload-action@v0.13.0
@@ -92,8 +111,7 @@ jobs:
                   network: calibration
                   minStorageDays: "30"
                   filecoinPayBalanceLimit: "0.25"
-                  # Dry-run on PR-triggered workflow_run; for manual runs use input
-                  dryRun: "${{ (github.event_name == 'workflow_run' && github.event.workflow_run.event != 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run == 'true') }}"
+                  dryRun: ${{ steps.dry-run.outputs.value }}
 
             - name: Set ENS contenthash (push to main or manual with update_ens=true)
               if: ${{ (github.event_name == 'workflow_run' && github.event.workflow_run.event == 'push') || (github.event_name == 'workflow_dispatch' && github.event.inputs.update_ens == 'true') }}
