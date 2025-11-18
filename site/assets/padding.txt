@@ -1,0 +1,99 @@
+This file intentionally contains a large amount of deterministic filler text to ensure that
+the generated CAR file is sufficiently large for downstream storage providers that have
+minimum payload requirements. The content is repeated to keep the file deterministic while
+still increasing its size substantially.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi vel
+condimentum interdum, nisl nisi aliquet nisl, eget aliquam nisl nisi eu nisl. Integer quis
+ligula a sapien scelerisque aliquet. Duis ac semper odio, a facilisis ipsum. Sed vitae
+semper arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+cubilia curae; Duis vel nisl id erat suscipit efficitur. Nullam vulputate nibh quis
+elementum facilisis. Vivamus vehicula nullam.
+
+Fusce viverra, metus eu laoreet facilisis, nunc erat dictum dolor, ut egestas orci nibh at
+tortor. Donec gravida felis non massa consequat, id hendrerit est tristique. Sed porta
+blandit erat, sed mollis libero aliquet sed. Aliquam commodo gravida magna, eget pulvinar
+leo condimentum nec. Integer vel urna quis libero viverra aliquam. Suspendisse potenti.
+Donec ac ipsum neque. Suspendisse potenti.
+
+Ut accumsan odio sed urna consequat, at tempus nulla porta. Aenean in urna vitae lectus
+congue eleifend. Vivamus finibus tincidunt mi non aliquet. Nulla facilisi. Morbi iaculis
+ipsum non elit volutpat, quis tincidunt lectus tempus. Nullam dapibus lacus sed semper
+vehicula. Integer sagittis quam vitae lorem scelerisque, nec tempor lacus dignissim.
+
+Curabitur dictum lacus ac mi semper tempor. Praesent at gravida odio, nec vulputate purus.
+Vivamus tristique sapien sed nisl gravida, at efficitur ipsum lobortis. Integer faucibus
+aliquam diam, at suscipit ante pellentesque ac. In vehicula facilisis augue, nec commodo
+eros semper id. Sed id finibus tortor. Aenean et sem metus. Donec a nisl viverra, pretium
+sapien vel, dapibus tortor.
+
+Suspendisse porta augue sed elit maximus, interdum eleifend sem vulputate. Donec pharetra
+molestie ligula, vitae egestas purus fermentum sit amet. Mauris auctor suscipit nunc, sit
+amet dictum lectus malesuada et. In hac habitasse platea dictumst. Sed vitae tortor et
+semper consequat. Sed auctor viverra lorem non volutpat. Integer auctor massa id neque
+gravida, sit amet volutpat ipsum porta.
+
+Nam sed ligula eget mauris facilisis gravida. Quisque ac nibh sed metus laoreet maximus.
+Duis scelerisque luctus neque, et dictum eros. Sed hendrerit augue nec lacus tincidunt,
+vel placerat purus consequat. Maecenas sed diam ut ante molestie sagittis. Duis viverra
+luctus lacus, id ultrices nisl pharetra vel. Fusce auctor dolor nec arcu convallis, ac
+ornare velit feugiat. Donec interdum iaculis nulla sed efficitur.
+
+Vivamus sed ligula bibendum, interdum ex eget, malesuada velit. Integer hendrerit ipsum
+vel nisl imperdiet, vitae efficitur sapien laoreet. Sed viverra turpis vel elementum
+finibus. Vivamus et efficitur enim, sed viverra mi. Cras non velit vehicula, volutpat
+felis non, lacinia est. Sed vitae orci nisi. Cras at augue justo. Sed laoreet libero eu
+ligula commodo, vitae elementum augue hendrerit.
+
+Pellentesque blandit bibendum dui, ac gravida tortor faucibus ac. Aliquam erat volutpat.
+Cras convallis pretium nisl, vel tempor massa pulvinar ut. Integer vitae hendrerit erat.
+In consectetur, elit sed interdum ultricies, nunc sem interdum urna, in volutpat velit
+lacus sed ex. Donec in dolor et libero aliquet porttitor. Sed ut justo lacinia, dictum
+diam eget, tempor nisl.
+
+Ut sagittis fermentum erat vel finibus. Sed sed volutpat massa, at ullamcorper turpis.
+Vivamus vel diam magna. Nam ullamcorper dui magna, a congue tortor efficitur sed. Cras
+tristique, justo a convallis suscipit, nunc sem rutrum libero, non sodales dolor purus a
+risus. Integer dapibus, odio ut feugiat volutpat, quam urna auctor nisl, ut gravida felis
+ipsum nec nunc. Integer placerat molestie sem, nec posuere mi aliquam sed. Sed semper
+vehicula lectus ac sollicitudin.
+
+Morbi feugiat arcu at iaculis convallis. Sed id commodo sapien. Maecenas tristique ut nunc
+eu tincidunt. In hac habitasse platea dictumst. Phasellus maximus eleifend metus, sit amet
+faucibus est bibendum at. Vestibulum sed augue eget nisi sagittis tincidunt. Aenean
+ullamcorper dui non lectus rutrum pellentesque. Curabitur lacinia vestibulum leo, id
+auctor libero fermentum non.
+
+Sed sit amet vestibulum neque. Vivamus varius diam quis lorem laoreet, vitae suscipit erat
+facilisis. Ut fringilla sem vel massa convallis, eget malesuada leo efficitur. Integer
+lobortis euismod mauris at finibus. Nullam aliquet consequat felis, vel auctor turpis
+commodo non. Integer venenatis molestie metus, vitae ultrices ipsum rhoncus ac. Sed a
+lectus ac velit auctor egestas id sed odio.
+
+Aliquam erat volutpat. Mauris accumsan, eros non venenatis tincidunt, mauris ipsum
+sagittis ligula, et egestas orci urna vel nunc. Donec nec leo eu ligula commodo sodales.
+Sed a commodo lorem, sed dictum justo. Integer id est venenatis, consectetur mauris
+congue, posuere lacus. Aenean at neque sed nulla tempor volutpat sed vitae risus. Vivamus
+maximus ex eget orci venenatis, sed vestibulum libero blandit.
+
+Sed ut arcu non ipsum scelerisque molestie. Curabitur ultricies dolor at tortor tincidunt
+sagittis. In sagittis mauris quis diam commodo scelerisque. Proin sed tortor a felis
+pellentesque volutpat. Nullam gravida felis vitae erat condimentum, a placerat libero
+ullamcorper. Suspendisse tempor ultrices mauris, vitae vulputate neque aliquet eu.
+Vestibulum at nisl nec ipsum gravida dapibus nec vel erat. Integer porttitor vehicula
+urna, ut pretium ipsum tempor sit amet.
+
+Praesent bibendum lorem vitae faucibus aliquet. In tristique, mauris ut imperdiet
+porttitor, nulla nisi laoreet purus, sed interdum urna nunc a nisi. Sed dictum sapien ut
+augue ornare, in vehicula elit porttitor. Cras vel lacus suscipit, consectetur arcu
+sodales, molestie turpis. Curabitur elementum accumsan ligula, vitae bibendum nibh
+tincidunt eget. Pellentesque in consectetur velit. Pellentesque semper luctus nisi, sed
+lobortis nisl euismod quis. Vestibulum ante ipsum primis in faucibus orci luctus et
+ultrices posuere cubilia curae.
+
+Donec lacinia nibh eget tellus aliquet, in pellentesque nulla maximus. Vivamus id mi non
+sem placerat lacinia et id augue. Maecenas suscipit augue ac rutrum suscipit. Nullam
+vehicula leo sem, a semper nulla aliquet vel. Vivamus eget arcu euismod, interdum arcu
+quis, tincidunt ipsum. Nulla facilisi. Etiam vitae velit lectus. Donec porta ante at
+turpis interdum efficitur.
+
