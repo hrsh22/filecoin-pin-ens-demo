@@ -85,7 +85,7 @@ jobs:
 
             - name: Upload to Filecoin
               id: filecoin
-              uses: filecoin-project/filecoin-pin/upload-action@2a8d3eb5454724b1ff24c74a284ab48b3173f237
+              uses: filecoin-project/filecoin-pin/upload-action@master
               with:
                   path: dist
                   walletPrivateKey: ${{ secrets.FILECOIN_WALLET_KEY }}
